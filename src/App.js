@@ -8,7 +8,6 @@ import ProductDetail from './pages/ProductDetail';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import axios from 'axios';
 
-
 function App() {
 
 const [products, setProducts]=useState([]);

@@ -5,7 +5,6 @@ import axios from 'axios';
 
 function Detaile() {
 
-  
   const {selectedId} = useParams();
   const [selectedProduct, setSelectedProduct] = useState([]);
   

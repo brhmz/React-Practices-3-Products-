@@ -3,8 +3,6 @@ import ProductCard from '../components/ProductCard'
 
 function HomePage({products}) {
   
-
-
   return (
     <div className='products-container'>
         
