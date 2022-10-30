@@ -13,7 +13,7 @@ function Category({products}) {
     axios.get(`https://fakestoreapi.com/products/category/${selectedMenu}`)
     .then(response => setSelectedCategory(response.data))
     .catch(err=>console.log(err))
-  }, [])
+  }, []) 
 
   return (
     <div className='products-container'>
