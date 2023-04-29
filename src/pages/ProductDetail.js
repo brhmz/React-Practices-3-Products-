@@ -18,7 +18,7 @@ function Detaile() {
   
     <div className = 'product-details-container'>
        <h2>{selectedProduct.title}</h2>
-       <img className='detail-image' src = {selectedProduct.image}/>
+       <img className='detail-image' src = {selectedProduct.image} alt={selectedProduct.title}/>
        <p>{selectedProduct.description}</p>
        <h3>$ {selectedProduct.price}</h3>
 
